@@ -1,0 +1,177 @@
+<Problem>
+	<ConfigurationData>
+		<TimeStep>450</TimeStep>
+		<NumberOfIterations>32</NumberOfIterations>
+	</ConfigurationData>
+	<Areas>
+		<Area>
+			<MaterialProperties>
+				<DiffusionCoefficient>0.00000019298245614035</DiffusionCoefficient>
+				<ThermalConductivity>0.286</ThermalConductivity>
+			</MaterialProperties>
+			<BoundarySegments>
+				<Segment numberOfIntegrationPoints="20" >
+					<BoundaryShapeCurve type="3">
+						<P0 x="0.0" y="0.06"/> 
+						<P1 x="0.0" y="0.05"/> 
+						<P2 x="0.0" y="0.04"/> 
+						<P3 x="0.0" y="0.03"/> 
+					</BoundaryShapeCurve>		
+					<CollocationPoints number="11" placement="1"/>
+					<BoundaryCondition type="q">
+						<Value>0</Value>
+					</BoundaryCondition>
+				</Segment>
+				<Segment numberOfIntegrationPoints="20" >
+					<BoundaryShapeCurve type="3">
+						<P0 x="0.0" y="0.03"/>
+						<P1 x="0.015" y="0.03"/>
+						<P2 x="0.03" y="0.015"/>
+						<P3 x="0.03" y="0.0"/>
+					</BoundaryShapeCurve>	
+					<CollocationPoints number="11" placement="1"/>			
+					<BoundaryCondition type="T">
+						<Value>90</Value>
+					</BoundaryCondition>
+				</Segment>
+				<Segment numberOfIntegrationPoints="20" >
+					<BoundaryShapeCurve type="3">
+						<P0 x="0.03" y="0.0"/>
+						<P1 x="0.04" y="0.0"/>
+						<P2 x="0.05" y="0.0"/>
+						<P3 x="0.06" y="0.0"/>
+					</BoundaryShapeCurve>	
+					<CollocationPoints number="11" placement="1"/>
+					<BoundaryCondition type="q">
+						<Value>0</Value>
+					</BoundaryCondition>
+				</Segment>
+				<Segment numberOfIntegrationPoints="20" connectionBoundary="True">
+					<BoundaryShapeCurve type="3">
+						<P0 x="0.06" y="0.0" />
+						<P1 x="0.06" y="0.03"/>
+						<P2 x="0.03" y="0.06"/>
+						<P3 x="0.0" y="0.06" />
+					</BoundaryShapeCurve>		
+					<CollocationPoints number="11" placement="1"/>
+					<BoundaryCondition type="q">
+						<Value>0</Value>
+					</BoundaryCondition>
+				</Segment>
+			</BoundarySegments>
+			<Surfaces>
+				<Surface>
+					<InitialCondition numberOfIntegrationPointsInDirectionX="20" numberOfIntegrationPointsInDirectionY="20">20.0</InitialCondition>
+					<SurfaceShape type="3">
+						<P0 x="0.03"	y="0.0"/>
+						<P1 x="0.04"	y="0.0"/>
+						<P2 x="0.05"	y="0.0"/>
+						<P3 x="0.06"	y="0.0"/>	
+						<P4 x="0.03"	y="0.015"/>
+						<P5 x="0.04"	y="0.015"/>
+						<P6 x="0.05"	y="0.015"/>	
+						<P7 x="0.06"	y="0.03"/>	
+						<P8 x="0.015"	y="0.03"/>	
+						<P9 x="0.015"	y="0.04"/>
+						<P10 x="0.015"	y="0.05"/>
+						<P11 x="0.03"	y="0.06"/>	
+						<P12 x="0.0"	y="0.03"/>
+						<P13 x="0.0"	y="0.04"/>
+						<P14 x="0.0"	y="0.05"/>
+						<P15 x="0.0"	y="0.06"/>
+					</SurfaceShape>
+				</Surface>
+			</Surfaces>
+		</Area>
+		<Area>
+			<MaterialProperties>
+				<DiffusionCoefficient>0.000000385964912281</DiffusionCoefficient>
+				<ThermalConductivity>0.572</ThermalConductivity>
+			</MaterialProperties>
+			<BoundarySegments>
+				<Segment numberOfIntegrationPoints="20" connectionBoundary="True">
+					<BoundaryShapeCurve type="3">
+						<P0 x="0.0" y="0.06"/>
+						<P1 x="0.03" y="0.06"/>
+						<P2 x="0.06" y="0.03"/>
+						<P3 x="0.06" y="0.0"/>
+					</BoundaryShapeCurve>		
+					<CollocationPoints number="11" placement="1"/>
+					<BoundaryCondition type="q">
+						<Value>0</Value>
+					</BoundaryCondition>
+				</Segment>
+				<Segment numberOfIntegrationPoints="20" >
+					<BoundaryShapeCurve type="3">
+						<P0 x="0.06" y="0.0"/>
+						<P1 x="0.07" y="0.0"/>
+						<P2 x="0.08" y="0.0"/>
+						<P3 x="0.09" y="0.0"/>
+					</BoundaryShapeCurve>	
+					<CollocationPoints number="11" placement="1"/>			
+					<BoundaryCondition type="q">
+						<Value>0</Value>
+					</BoundaryCondition>
+				</Segment>
+				<Segment numberOfIntegrationPoints="20" >
+					<BoundaryShapeCurve type="3">
+						<P0 x="0.09" y="0.0"/>
+						<P1 x="0.09" y="0.06"/>
+						<P2 x="0.06" y="0.09"/>
+						<P3 x="0.0" y="0.09"/>
+					</BoundaryShapeCurve>	
+					<CollocationPoints number="11" placement="1"/>
+					<BoundaryCondition type="q" >
+						<CovectionRadiation outherBoundaryDiameter="0.18" fluidTemperature="20.0" fluidThermalConductivity="0.026" fluidViscosity="0.0000187" fluidDensity="1.1" fluidSpecificHeat="1005" emissivityCoefficient="0.93" />
+					</BoundaryCondition>
+				</Segment>
+				<Segment numberOfIntegrationPoints="20" >
+					<BoundaryShapeCurve type="3">
+						<P0 x="0.0" y="0.09"/>
+						<P1 x="0.0" y="0.08"/>
+						<P2 x="0.0" y="0.07"/>
+						<P3 x="0.0" y="0.06"/>
+					</BoundaryShapeCurve>		
+					<CollocationPoints number="11" placement="1"/>
+					<BoundaryCondition type="q">
+						<Value>0</Value>
+					</BoundaryCondition>
+				</Segment>
+			</BoundarySegments>
+			<Surfaces>
+				<Surface>
+					<InitialCondition numberOfIntegrationPointsInDirectionX="20" numberOfIntegrationPointsInDirectionY="20">20.0</InitialCondition>
+					<SurfaceShape type="3">
+						 <P0  x="0.06"	y="0.0"/>
+						 <P1  x="0.07"	y="0.0"/>
+						 <P2  x="0.08"	y="0.0"/>
+						 <P3  x="0.09"	y="0.0"/>	
+						 <P4  x="0.06"	y="0.03"/>
+						 <P5  x="0.07"	y="0.03"/>
+						 <P6  x="0.08"	y="0.03"/>	
+						 <P7  x="0.09"	y="0.06"/>	
+						 <P8  x="0.03"	y="0.06"/>	
+						 <P9  x="0.03"	y="0.07"/>
+						 <P10 x="0.03"	y="0.08"/>
+						 <P11 x="0.06"	y="0.09"/>	
+						 <P12 x="0.0"	y="0.06"/>
+						 <P13 x="0.0"	y="0.07"/>
+						 <P14 x="0.0"	y="0.08"/>
+						 <P15 x="0.0"	y="0.09"/>
+					</SurfaceShape>
+				</Surface>
+			</Surfaces>
+		</Area>
+	</Areas>
+	<Oputput>
+		<WriteResultsIn timeInterval="900"/>
+		<Boundary>
+		</Boundary>
+		<Domain>
+			<P x="0.024" y="0.024"/>
+			<P x="0.034" y="0.034"/>  
+			<P x="0.044" y="0.044"/>
+			<P x="0.056" y="0.056"/>
+		</Domain>
+	</Oputput>
+</Problem>

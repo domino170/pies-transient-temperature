@@ -1,0 +1,10 @@
+D:\Biuro\Nauka\DR\PIES Programy\PIES_TransientTemperature\PIES_TransientTemperature\PIES_TransientTemperature\obj\Debug\PIES_TransientTemperature.Properties.Resources.resources
+D:\Biuro\Nauka\DR\PIES Programy\PIES_TransientTemperature\PIES_TransientTemperature\PIES_TransientTemperature\obj\Debug\PIESTransientTemperature.csproj.GenerateResource.Cache
+D:\Biuro\Nauka\DR\PIES Programy\PIES_TransientTemperature\PIES_TransientTemperature\PIES_TransientTemperature\bin\Debug\PIES_TransientTemperature.exe.config
+D:\Biuro\Nauka\DR\PIES Programy\PIES_TransientTemperature\PIES_TransientTemperature\PIES_TransientTemperature\bin\Debug\PIES_TransientTemperature.exe
+D:\Biuro\Nauka\DR\PIES Programy\PIES_TransientTemperature\PIES_TransientTemperature\PIES_TransientTemperature\bin\Debug\PIES_TransientTemperature.pdb
+D:\Biuro\Nauka\DR\PIES Programy\PIES_TransientTemperature\PIES_TransientTemperature\PIES_TransientTemperature\obj\Debug\PIES_TransientTemperature.exe
+D:\Biuro\Nauka\DR\PIES Programy\PIES_TransientTemperature\PIES_TransientTemperature\PIES_TransientTemperature\obj\Debug\PIES_TransientTemperature.pdb
+D:\Biuro\Nauka\DR\PIES Programy\PIES_TransientTemperature\PIES_TransientTemperature\PIES_TransientTemperature\obj\Debug\PIESTransientTemperature.PIES.resources
+D:\Biuro\Nauka\DR\PIES Programy\PIES_TransientTemperature\PIES_TransientTemperature\PIES_TransientTemperature\bin\Debug\Jace.dll
+D:\Biuro\Nauka\DR\PIES Programy\PIES_TransientTemperature\PIES_TransientTemperature\PIES_TransientTemperature\obj\Debug\PIESTransientTemperature.csprojResolveAssemblyReference.cache

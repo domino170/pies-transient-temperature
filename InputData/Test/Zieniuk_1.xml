@@ -1,0 +1,81 @@
+<Area>
+	<ConfigurationData>
+		<DiffusionCoefficient>1</DiffusionCoefficient>
+		<ThermalConductivity>1</ThermalConductivity>
+		<TimeStep>0.1</TimeStep>
+		<NumberOfIterations>1</NumberOfIterations>
+	</ConfigurationData>
+	<BoundarySegments>
+		<Segment numberOfCollocationPoints="8" collocationPointsPlacement="0" numberOfIntegrationPoints="20" >
+			<BoundaryShapeCurve type="3">
+				<P0 x="0.0" y="0.0"/>
+				<P1 x="0.33333" y="0.0"/>
+				<P2 x="0.66666" y="0.0"/>
+				<P3 x="1.0" y="0.0"/>
+			</BoundaryShapeCurve>		
+			<BoundaryCondition type="T" value="0.85|0.0|0.75"/>
+		</Segment>
+		<Segment numberOfCollocationPoints="8" collocationPointsPlacement="0" numberOfIntegrationPoints="20" >
+			<BoundaryShapeCurve type="3">
+				<P0 x="1.0" y="0.0"/>
+				<P1 x="1.0" y="0.33333"/>
+				<P2 x="1.0" y="0.66666"/>
+				<P3 x="1.0" y="1.0"/>
+			</BoundaryShapeCurve>		
+			<BoundaryCondition type="q" value="-3|0"/>
+		</Segment>
+		<Segment numberOfCollocationPoints="8" collocationPointsPlacement="0" numberOfIntegrationPoints="20" >
+			<BoundaryShapeCurve type="3">
+				<P0 x="1.0" y="1.0"/>
+				<P1 x="0.66666" y="1.0"/>
+				<P2 x="0.33333" y="1.0"/>
+				<P3 x="0.0" y="1.0"/>
+			</BoundaryShapeCurve>		
+			<BoundaryCondition type="q" value="2|0"/>
+		</Segment>
+		<Segment numberOfCollocationPoints="8" collocationPointsPlacement="0" numberOfIntegrationPoints="20" >
+			<BoundaryShapeCurve type="3">
+				<P0 x="0.0" y="1.0"/>
+				<P1 x="0.0" y="0.66666"/>
+				<P2 x="0.0" y="0.33333"/>
+				<P3 x="0.0" y="0.0"/>
+			</BoundaryShapeCurve>		
+			<BoundaryCondition type="q" value="0|0"/>
+		</Segment>
+	</BoundarySegments>
+	<Surfaces>
+		<Surface numberOfIntegrationPointsInDirectionX="40" numberOfIntegrationPointsInDirectionY="40">
+			<InitialCondition value="0"/>
+			<SurfaceShape type="3">
+				<P0 x="0.0" y="0.0"/>
+				<P1 x="0.33333" y="0.0"/>
+				<P2 x="0.66666" y="0.0"/>
+				<P3 x="1.0" y="0.0"/>
+				<P4 x="0.0" y="0.33333"/>
+				<P5 x="0.33333" y="0.33333"/>
+				<P6 x="0.66666" y="0.33333"/>
+				<P7 x="1.0" y="0.33333"/>
+				<P8 x="0.0" y="0.66666"/>
+				<P9 x="0.33333" y="0.66666"/>
+				<P10 x="0.66666" y="0.66666"/>
+				<P11 x="1.0" y="0.66666"/>
+				<P12 x="0.0" y="1.0"/>
+				<P13 x="0.33333" y="1.0"/>
+				<P14 x="0.66666" y="1.0"/>
+				<P15 x="1.0" y="1.0"/>
+			</SurfaceShape>
+		</Surface>
+	</Surfaces>
+	<Oputput>
+		<WriteResultsIn time="0.1"/>
+		<Boundary>
+			<P segmentIndex="0" parametricPosition="0.5" boundaryCondition="q"/>
+			<P segmentIndex="1" parametricPosition="0.5" boundaryCondition="T"/>
+			<P segmentIndex="2" parametricPosition="0.5" boundaryCondition="T"/>
+			<P segmentIndex="3" parametricPosition="0.5" boundaryCondition="T"/>
+		</Boundary>
+		<Domain>
+			<P x="0.5" y="0.5"/>
+		</Domain>
+	</Oputput>
+</Area>

@@ -1,0 +1,97 @@
+<!-- Meters changed to milimiters -->
+<Problem>
+	<ConfigurationData>
+		<TimeStep>0.2</TimeStep>
+		<NumberOfIterations>100</NumberOfIterations>
+	</ConfigurationData>
+	<Areas>
+		<Area>
+			<MaterialProperties>
+				<DiffusionCoefficient>0.1197996183663357</DiffusionCoefficient>
+				<ThermalConductivity>0.5</ThermalConductivity>
+			</MaterialProperties>
+			<BoundarySegments>
+				<Segment numberOfIntegrationPoints="20" >
+					<BoundaryShapeCurve type="3">
+						<P0 x="3.0" y="0.0"/>
+						<P1 x="4.55" y="0.05"/>
+						<P2 x="5.3" y="1.6"/>
+						<P3 x="4.6" y="2.8"/>
+					</BoundaryShapeCurve>		
+					<CollocationPoints number="8" placement="0"/>
+					<BoundaryCondition type="T">
+						<Value>0</Value>
+					</BoundaryCondition>
+				</Segment>
+				<Segment numberOfIntegrationPoints="20" >
+					<BoundaryShapeCurve type="3">
+						<P0 x="4.6" y="2.8"/>
+						<P1 x="3.47" y="4.3"/>
+						<P2 x="3.46" y="6.1"/>
+						<P3 x="4.6" y="7.5"/>
+					</BoundaryShapeCurve>	
+					<CollocationPoints number="8" placement="0"/>			
+					<BoundaryCondition type="T">
+						<Value>0</Value>
+					</BoundaryCondition>
+				</Segment>
+				<Segment numberOfIntegrationPoints="20" >
+					<BoundaryShapeCurve type="3">
+						<P0 x="4.6" y="7.5"/>
+						<P1 x="5.2" y="8.5"/>
+						<P2 x="5.0" y="10.2"/>
+						<P3 x="3.0" y="9.95"/>
+					</BoundaryShapeCurve>	
+					<CollocationPoints number="8" placement="0"/>
+					<BoundaryCondition type="T">
+						<Value>0</Value>
+					</BoundaryCondition>
+				</Segment>
+				<Segment numberOfIntegrationPoints="20" >
+					<BoundaryShapeCurve type="3">
+						<P0 x="3.0" y="9.95"/>
+						<P1 x="-1.0" y="8.4"/>
+						<P2 x="-1.0" y="1.6"/>
+						<P3 x="3.0" y="0.0"/>
+					</BoundaryShapeCurve>		
+					<CollocationPoints number="8" placement="0"/>
+					<BoundaryCondition type="T">
+						<Value>0</Value>
+					</BoundaryCondition>
+				</Segment>
+			</BoundarySegments>
+			<Surfaces>
+				<Surface>
+					<InitialCondition numberOfIntegrationPointsInDirectionX="60" numberOfIntegrationPointsInDirectionY="60">37.0</InitialCondition>
+					<SurfaceShape type="3">
+						 <P0 x="3.0"  y="0.0" />
+						 <P1 x="4.55" y="0.05" />
+						 <P2 x="5.3"  y="1.6" />
+						 <P3 x="4.6"  y="2.8" />
+						 <P4 x="-1.0" y="1.6" />
+						 <P5 x="2.0"  y="2.0" />
+						 <P6 x="3.2"  y="3.0" />
+						 <P7 x="3.47" y="4.3" />
+						 <P8 x="-1.0" y="8.4" />
+						 <P9 x="1.5"  y="7.0" />
+						 <P10 x="3.5"  y="8.0" />
+						 <P11 x="3.46" y="6.1" />
+						 <P12 x="3.0"  y="9.95" />
+						 <P13 x="5.0"  y="10.2" />
+						 <P14 x="5.2"  y="8.5" />
+						 <P15 x="4.6"  y="7.5" />
+					</SurfaceShape>
+				</Surface>
+			</Surfaces>
+		</Area>
+	</Areas>
+	<Oputput>
+		<WriteResultsIn time="1.0|2.0|3.0|4.0|5.0|6.0|7.0|8.0|9.0|10.0|11.0|12.0|13.0|14.0|15.0|16.0|17.0|18.0|19.0|20.0"/>
+		<Boundary>
+		</Boundary>
+		<Domain>
+			<P x="3.0" y="2.0"/>
+			<P x="3.0" y="8.0"/>
+		</Domain>
+	</Oputput>
+</Problem>

@@ -1,0 +1,79 @@
+<Problem>
+	<ConfigurationData>
+		<TimeStep>0.05</TimeStep>
+		<NumberOfIterations>24</NumberOfIterations>
+	</ConfigurationData>
+	<Areas>
+		<Area>
+			<MaterialProperties>
+				<DiffusionCoefficient>1.25</DiffusionCoefficient>
+				<ThermalConductivity>1.25</ThermalConductivity>
+			</MaterialProperties>
+			<BoundarySegments>
+				<Segment numberOfIntegrationPoints="30" >
+					<BoundaryShapeCurve type="1">
+						<P0 x="0.0" y="0.0"/>
+						<P1 x="3.0" y="0.0"/>
+					</BoundaryShapeCurve>	
+					<CollocationPoints number="8" placement="2" distanceFromEdge="0.1"/>			
+					<BoundaryCondition type="T">
+						<Value>0</Value>
+					</BoundaryCondition>
+				</Segment>
+				<Segment numberOfIntegrationPoints="30" >
+					<BoundaryShapeCurve type="1">
+						<P0 x="3.0" y="0.0"/>
+						<P1 x="3.0" y="3.0"/>
+					</BoundaryShapeCurve>		
+					<CollocationPoints number="8" placement="2" distanceFromEdge="0.1"/>
+					<BoundaryCondition type="T">
+						<Value>0</Value>
+					</BoundaryCondition>
+				</Segment>
+				<Segment numberOfIntegrationPoints="30" >
+					<BoundaryShapeCurve type="1">
+						<P0 x="3.0" y="3.0"/>
+						<P1 x="0.0" y="3.0"/>
+					</BoundaryShapeCurve>	
+					<CollocationPoints number="8" placement="2" distanceFromEdge="0.1"/>
+					<BoundaryCondition type="T">
+						<Value>0</Value>
+					</BoundaryCondition>
+				</Segment>
+				<Segment numberOfIntegrationPoints="30" >
+					<BoundaryShapeCurve type="1">
+						<P0 x="0.0" y="3.0"/>
+						<P1 x="0.0" y="0.0"/>
+					</BoundaryShapeCurve>	
+					<CollocationPoints number="8" placement="2" distanceFromEdge="0.1"/>
+					<BoundaryCondition type="q">
+						<Value>0</Value>
+					</BoundaryCondition>
+				</Segment>
+			</BoundarySegments>
+			<Surfaces>
+				<Surface>
+					<InitialCondition numberOfIntegrationPointsInDirectionX="50" numberOfIntegrationPointsInDirectionY="50">30.0</InitialCondition>
+					<SurfaceShape type="1">
+						<P0 x="0.0" y="0.0"/>
+						<P1 x="3.0" y="0.0"/>
+						<P2 x="0.0" y="3.0"/>
+						<P3 x="3.0" y="3.0"/>
+					</SurfaceShape>
+				</Surface>
+			</Surfaces>
+		</Area>
+	</Areas>
+	<Oputput>
+		<WriteResultsIn time="1.2"/>
+		<Boundary>
+		</Boundary>
+		<Domain>
+			<P x="1.5" y="0.3"/>
+			<P x="1.5" y="0.6"/>
+			<P x="1.5" y="0.9"/>
+			<P x="1.5" y="1.2"/>
+			<P x="1.5" y="1.5"/>
+		</Domain>
+	</Oputput>
+</Problem>
