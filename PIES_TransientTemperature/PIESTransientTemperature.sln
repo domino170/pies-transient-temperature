@@ -1,7 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Express 2012 for Windows Desktop
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PIESTransientTemperature", "PIES_TransientTemperature\PIESTransientTemperature.csproj", "{50AA754C-E1A6-4AB8-AB4A-F55F20113172}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PIESTransientTemperatureTests", "PIESTransientTemperatureTests\PIESTransientTemperatureTests.csproj", "{EC31EE20-9B67-4550-8DA9-8C355F05A850}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,8 +17,15 @@ Global
 		{50AA754C-E1A6-4AB8-AB4A-F55F20113172}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{50AA754C-E1A6-4AB8-AB4A-F55F20113172}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{50AA754C-E1A6-4AB8-AB4A-F55F20113172}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC31EE20-9B67-4550-8DA9-8C355F05A850}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC31EE20-9B67-4550-8DA9-8C355F05A850}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC31EE20-9B67-4550-8DA9-8C355F05A850}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC31EE20-9B67-4550-8DA9-8C355F05A850}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EA9AADC5-1556-4B86-BA0D-49D9F374900C}
 	EndGlobalSection
 EndGlobal
