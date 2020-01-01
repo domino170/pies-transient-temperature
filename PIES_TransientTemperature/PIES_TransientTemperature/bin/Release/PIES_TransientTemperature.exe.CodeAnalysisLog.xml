@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="c:\program files (x86)\microsoft visual studio\2019\community\team tools\static analysis tools\fxcop\Xml\CodeAnalysisReport.xsl"?>
+<FxCopReport Version="16.0">
+ <Targets>
+  <Target Name="D:\Biuro\Nauka\DR\PIES Programy\PIES_TransientTemperature\PIES_TransientTemperature\PIES_TransientTemperature\bin\Release\PIES_TransientTemperature.exe">
+   <Modules>
+    <Module Name="pies_transienttemperature.exe">
+     <Namespaces>
+      <Namespace Name="PIESTransientTemperature.Properties">
+       <Types>
+        <Type Name="Resources" Kind="Class" Accessibility="Assembly" ExternallyVisible="False">
+         <Members>
+          <Member Name="#.ctor()" Kind="Method" Static="False" Accessibility="Assembly" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="AvoidUncalledPrivateCode" Category="Microsoft.Performance" CheckId="CA1811" Status="ExcludedInSource" Created="2019-12-31 15:24:32Z" FixCategory="NonBreaking" LastSeen="0001-01-01 00:00:00Z" />
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+     </Namespaces>
+    </Module>
+   </Modules>
+  </Target>
+ </Targets>
+ <Rules>
+  <Rule TypeName="AvoidUncalledPrivateCode" Category="Microsoft.Performance" CheckId="CA1811">
+   <Name>Unikaj niewywołanego kodu prywatnego</Name>
+   <Description>Istnieje niewywołany kod, który nie jest widoczny zewnętrznie i nie jest znanym punktem wejścia środowiska uruchomieniowego. Jeśli to naruszenie spowoduje błąd, wyślij raport o problemie do zespołu ds. analizy kodu programu Visual Studio.</Description>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182264.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="performancerules.dll" Version="16.0.0.0" />
+  </Rule>
+ </Rules>
+ <Localized>
+  <String Key="Category">Kategoria</String>
+  <String Key="Certainty">Pewność</String>
+  <String Key="CollapseAll">Zwiń wszystko</String>
+  <String Key="CheckId">Identyfikator testu</String>
+  <String Key="Error">Błąd</String>
+  <String Key="Errors">błędy</String>
+  <String Key="ExpandAll">Rozwiń wszystko</String>
+  <String Key="Help">Pomoc</String>
+  <String Key="Line">Wiersz</String>
+  <String Key="Messages">komunikaty</String>
+  <String Key="LocationNotStoredInPdb">[Lokalizacja nie jest przechowywana w pliku PDB]</String>
+  <String Key="Project">Projekt</String>
+  <String Key="Resolution">Rozwiązanie</String>
+  <String Key="Rule">Reguła</String>
+  <String Key="RuleFile">Plik reguł</String>
+  <String Key="RuleDescription">Opis reguły</String>
+  <String Key="Source">Źródło</String>
+  <String Key="Status">Stan</String>
+  <String Key="Target">Element docelowy</String>
+  <String Key="Warning">Ostrzeżenie</String>
+  <String Key="Warnings">ostrzeżenia</String>
+  <String Key="ReportTitle">Raport z analizy kodu</String>
+ </Localized>
+</FxCopReport>

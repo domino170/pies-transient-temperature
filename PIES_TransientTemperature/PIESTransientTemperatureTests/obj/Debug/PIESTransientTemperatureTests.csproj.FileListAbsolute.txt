@@ -1,0 +1,8 @@
+D:\Biuro\Nauka\DR\PIES Programy\PIES_TransientTemperature\PIES_TransientTemperature\PIESTransientTemperatureTests\bin\Debug\PIESTransientTemperatureTests.dll
+D:\Biuro\Nauka\DR\PIES Programy\PIES_TransientTemperature\PIES_TransientTemperature\PIESTransientTemperatureTests\bin\Debug\PIESTransientTemperatureTests.pdb
+D:\Biuro\Nauka\DR\PIES Programy\PIES_TransientTemperature\PIES_TransientTemperature\PIESTransientTemperatureTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\Biuro\Nauka\DR\PIES Programy\PIES_TransientTemperature\PIES_TransientTemperature\PIESTransientTemperatureTests\bin\Debug\pl\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
+D:\Biuro\Nauka\DR\PIES Programy\PIES_TransientTemperature\PIES_TransientTemperature\PIESTransientTemperatureTests\obj\Debug\PIESTransientTemperatureTests.csprojAssemblyReference.cache
+D:\Biuro\Nauka\DR\PIES Programy\PIES_TransientTemperature\PIES_TransientTemperature\PIESTransientTemperatureTests\obj\Debug\PIESTransientTemperatureTests.csproj.CopyComplete
+D:\Biuro\Nauka\DR\PIES Programy\PIES_TransientTemperature\PIES_TransientTemperature\PIESTransientTemperatureTests\obj\Debug\PIESTransientTemperatureTests.dll
+D:\Biuro\Nauka\DR\PIES Programy\PIES_TransientTemperature\PIES_TransientTemperature\PIESTransientTemperatureTests\obj\Debug\PIESTransientTemperatureTests.pdb
