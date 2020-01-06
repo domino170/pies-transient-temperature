@@ -8,5 +8,4 @@ D:\Biuro\Nauka\DR\PIES Programy\PIES_TransientTemperature\PIES_TransientTemperat
 D:\Biuro\Nauka\DR\PIES Programy\PIES_TransientTemperature\PIES_TransientTemperature\PIES_TransientTemperature\obj\Release\PIES_TransientTemperature.pdb
 D:\Biuro\Nauka\DR\PIES Programy\PIES_TransientTemperature\PIES_TransientTemperature\PIES_TransientTemperature\bin\Release\Jace.dll
 D:\Biuro\Nauka\DR\PIES Programy\PIES_TransientTemperature\PIES_TransientTemperature\PIES_TransientTemperature\obj\Release\PIESTransientTemperature.csproj.CopyComplete
-D:\Biuro\Nauka\DR\PIES Programy\PIES_TransientTemperature\PIES_TransientTemperature\PIES_TransientTemperature\bin\Release\PIES_TransientTemperature.exe.CodeAnalysisLog.xml
-D:\Biuro\Nauka\DR\PIES Programy\PIES_TransientTemperature\PIES_TransientTemperature\PIES_TransientTemperature\bin\Release\PIES_TransientTemperature.exe.lastcodeanalysissucceeded
+D:\Biuro\Nauka\DR\PIES Programy\PIES_TransientTemperature\PIES_TransientTemperature\PIES_TransientTemperature\obj\Release\PIESTransientTemperature.csprojAssemblyReference.cache
